@@ -1,0 +1,94 @@
+{{ 'two-image-with-text.css' | asset_url | stylesheet_tag }}
+
+<div class="container_block container_block{{ section.settings.extra_class }}">
+  {% capture image_layout %}
+        <div class="container_blockinner">
+          {%- if section.settings.image1 != blank -%}
+            <div class="main-image">
+                <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="Man in Iron Heart clothing">
+            </div>
+              {%- endif -%}
+          {%- if section.settings.image2 != blank -%}
+            <div class="zoom-image">
+                <img src="{{ section.settings.image2 | img_url: 'master' }}" alt="Close-up of fabric and button">
+            </div>
+              {%- endif -%}
+        </div>
+    {% endcapture %}
+
+  {% if section.settings.layout == 'left' %}
+    {{ image_layout }}
+  {% endif %}
+
+  <div class="container_content">
+    {% if section.settings.heading != blank %}
+      <h1>{{ section.settings.heading }}</h1>
+    {% endif %}
+    {% if section.settings.content != blank %}
+      <p>
+        {{ section.settings.content }}
+      </p>
+    {% endif %}
+  </div>
+  
+  {% if section.settings.layout == 'right' %}
+    {{ image_layout }}
+  {% endif %}
+  
+</div>
+
+{% schema %}
+{
+  "name": "Two Image With Text",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Extra Class",
+      "id": "extra_class"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image1",
+      "id": "image1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image2",
+      "id": "image2"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label":"Image position",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label":"Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "label": "Heading",
+      "id": "heading"
+    },
+    {
+      "type": "html",
+      "label": "Content",
+      "id": "content"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Two Image With Text"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,127 @@
+.container_block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 55px;
+}
+.container_blockinner {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.main-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.zoom-image {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: -100px;
+    transition: transform 0.5s ease-in-out;
+    flex-shrink: 0;
+}
+
+.zoom-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition-duration: 4s;
+    margin: 0 auto;
+}
+.zoom-image img:hover{
+   transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+/* .zoom-image:hover {
+    transform: scale(1.1);
+} */
+
+.container_content {
+    flex: 2;
+    padding-left: 35px;
+    text-align: center;
+}
+
+.container_content h1 {
+    color: #000;
+    font-size: 2em;
+  text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.container_content p {
+    font-size: 19px;
+    line-height: 30px;
+      width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+/* 
+/* second block */
+
+.container_block1 .container_content {
+    order: -1;
+    padding-left: 0px;
+    padding-right: 35px;
+}
+.container_block1 .container_blockinner {
+    flex-direction: row-reverse;
+}
+.container_block1 .zoom-image {
+    margin-right: -100px;
+    margin-left: 0px;
+}
+
+@media screen and (max-width:1280px) {
+    .zoom-image {
+        margin-left: -65px;
+        width: 200px;
+        height: 200px;
+    }  
+    .container_block1 .zoom-image {
+        margin-right: -65px;
+    } 
+}
+
+@media screen and (max-width:990px) {
+    .container_block {
+        padding-inline: 20px;
+    }
+    .zoom-image {
+        margin-left: -85px;
+        width: 120px;
+        height: 120px;
+    }    
+    .container_content {
+        padding-left: 0px;
+        padding-top: 35px;
+    }
+    .container_blockinner {
+        width: 100%;
+    }
+    .container_block1 .container_content {
+        order:inherit;
+    } 
+    .container_block1 .zoom-image {
+        margin-right: -85px;
+        margin-left: 0px;
+    }
+    .container_block1 .container_content {
+        padding-right: 0px;
+    }
+    
+}
+
+ */

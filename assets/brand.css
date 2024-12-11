@@ -1,0 +1,84 @@
+.main_brand_images .swiper {
+  width: 100%;
+  height: 100%;
+}
+.main_brand_images .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main_brand_images .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main_brand_images {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+p.coll_title {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  background: #000;
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.main_brand_images .swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #000 !important;
+  font-size: 25px;
+}
+/* Hide the brand hover image by default */
+.main_brand_images .swiper-slide .brand_hover_image {
+  /*display: none !important;*/
+  opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.8s ease-in-out;
+}
+/* Show the brand hover image and hide the main image on hover */
+.main_brand_images .swiper-slide:hover .brand_hover_image {
+  /*display: block !important;*/
+  opacity: 1;
+  visibility: visible;
+}
+.swiper-slide:hover .main_coll_image {
+  /*display: none;*/
+}
+.main_brand_images .left_heading{
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main_brand_images {
+    display: flex;
+    align-items: center;
+  }
+  .main_brand_images .left_heading {
+    width: 30%;
+    
+  }
+  .main_brand_images .right_images {
+    width: 70%;
+  }
+  p.brand_content {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+}

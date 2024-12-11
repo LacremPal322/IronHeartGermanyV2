@@ -1,0 +1,139 @@
+{{ 'brand.css' | asset_url | stylesheet_tag }}
+
+<div class="main_brand_images wrapper--full-padded" style="background:{{ section.settings.bg_color }}; color:{{ section.settings.color }}">
+  <div class="left_heading">
+    <h2 class="brand_heading" style="color:{{ section.settings.color }}">{{ section.settings.heading }}</h2>
+    <p class="brand_content">{{ section.settings.content }}</p>
+    <a class="btn btn--view-all" href="{{ section.settings.btn_link }}" style="background:{{ section.settings.bg_btn_color }}; color:{{ section.settings.btn_color }}">
+      {{ section.settings.button }}
+    </a>
+  </div>
+  <div class="right_images">
+    <!-- Swiper -->
+  <div class="swiper brand_slider">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+      <div class="swiper-slide">
+        <a href="{{ block.settings.image_link }}">
+          <img class="main_coll_image" src="{{ block.settings.image | img_url: 'master' }}">
+          <img class="brand_hover_image" src="{{ block.settings.brand_image | img_url: 'master' }}">  
+          <p class="coll_title">{{ block.settings.title }}</p>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Brand",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "html",
+      "label": "Heading",
+      "id": "heading"
+    },
+    {
+      "type": "html",
+      "label": "Content",
+      "id": "content"
+    },
+     {
+      "type": "color",
+      "label": "Background Color",
+      "id": "bg_color"
+    },
+    {
+      "type": "color",
+      "label": "Color",
+      "id": "color"
+    },
+     {
+      "type": "text",
+      "label": "Button",
+      "id": "button"
+    },
+    {
+      "type": "url",
+      "label": "Button Link",
+      "id": "btn_link"
+    },
+     {
+      "type": "color",
+      "label": "Button Background Color",
+      "id": "bg_btn_color"
+    },
+    {
+      "type": "color",
+      "label": "Button Color",
+      "id": "btn_color"
+    },
+  ],
+  "blocks": [
+    {
+      "type": "brand",
+      "name": "Brand",
+      "settings": [
+       {
+          "type": "text",
+          "label": "Title",
+          "id": "title"
+        },
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image"
+        },
+        {
+          "type": "image_picker",
+          "label": "Brand Image",
+          "id": "brand_image"
+        },
+        {
+          "type": "url",
+          "label": "Image Link",
+          "id": "image_link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand"
+    }
+  ]
+}
+{% endschema %}
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".brand_slider", {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    520: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    }
+  }
+  });
+</script>
