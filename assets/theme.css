@@ -28286,7 +28286,7 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 }
 
 
-/*mobile logo adjustments*/
+/*mobile logo adjustments
 
 @media only screen and (max-width: 479px) {
   .logo {
@@ -28301,3 +28301,4 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 .product__title-and-price {
   gap:12px!important;
 }
+*/
