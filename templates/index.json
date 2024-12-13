@@ -1,1 +1,796 @@
-{"sections":{"section_slideshow_dTDLLQ":{"type":"section-slideshow","blocks":{"image_Mc6ncH":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2J5A6388_88f1b133-8b6c-4eae-8bf1-820f7e0562cc.jpg","image_mobile":"shopify:\/\/shop_images\/2J5A6388_1.jpg","overlay_opacity":0,"text_width":"normal","text_position":"bottom-right","text_color":"text-light","subheading":"","title":"GOOD ART<span class=\"red_dot\"><\/span>","heading_font_size":40,"text_font_size":22,"heading_highlight_type":"circle","highlight_color":"#d43747","highlight_text_color":"#000000","text":"Club Ring Medium - Sterling Silver","button_1_text":"Shop","button_1_link":"https:\/\/ironheartgermany.com\/collections\/good-art-hlywd\/products\/good-art-hlywd-good-art-club-ring-medium-sterling-silver","button_1_color":"btn--white","button_1_style":"btn--outline","button_1_size":"btn--small","button_2_text":"","button_2_link":"","button_2_color":"btn--black","button_2_style":"btn--solid","button_2_size":"btn--large","video_text":"","video_link":""}},"image_e8ntQh":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/WE-907CXL-BRN_014_24_10_1e10134b-1d32-4371-9540-fb23d7cbd028.jpg","image_mobile":"shopify:\/\/shop_images\/WE-907CXL-BRN_030_24_10_394f60aa-c0f0-4c23-9ffe-0446764bfd43.jpg","overlay_opacity":10,"text_width":"narrow","text_position":"top-left","text_color":"text-light","subheading":"","title":"WESCO<span class=\"red_dot\"><\/span>","heading_font_size":40,"text_font_size":26,"heading_highlight_type":"circle","highlight_color":"#d43747","highlight_text_color":"#000000","text":"Custom Warren Chromexcel","button_1_text":"Shop","button_1_link":"https:\/\/ironheartgermany.com\/collections\/wesco\/products\/wesco-we-907cxl-brn-custom-warren-chromexcel-brown","button_1_color":"btn--secondary","button_1_style":"btn--outline","button_1_size":"btn--medium","button_2_text":"","button_2_link":"","button_2_color":"btn--black","button_2_style":"btn--solid","button_2_size":"btn--large","video_text":"","video_link":""}}},"block_order":["image_Mc6ncH","image_e8ntQh"],"custom_css":["h1 {text-transform: none; font-size: 52px; line-height: 56px;}",".subheading-text {font-size: 12px;}",".red_dot:after {top: 2px; position: relative; width: 7px; height: 7px;}",".btn {width: fit-content !important;}",".main-buttons {margin: 32px 0 0 0 !important;}",".slide__heading.main-heading {line-height: 1em!important;}"],"settings":{"slide_height":"three-quarters-height","enable_mobile_height":true,"mobile_slide_height":"five-fifty-height-mobile","show_nav_dots":true,"show_nav_arrows":false,"show_arrow_down":false,"autoplay":false,"duration":4,"transition":"wipe","enable_zoom_animation":true,"heading_size":130}},"section_collection_wbgefN":{"type":"section-collection","custom_css":["\/*.section__link {font-family: \"Roboto\";}","*\/.section__text {max-width: 660px !important;}",".product-grid-item__price {font-weight: 800 !important;}"],"settings":{"collection":"new","products_layout":"carousel","number_of_products":12,"products_per_row_on_desktop":3,"columns_mobile":"1","text_alignment":"text-center","title":"<p>NEW IN<span class=\"red_dot\"><\/span><\/p>","heading_highlight_type":"circle","highlight_color":"#d43747","highlight_text_color":"#000000","heading_size":100,"text":"","text_size":100,"button_text":"","bg_color_full":"#000000","bg_color":"#fafafa","txt_color":"#000000","button_style":"btn--solid","button_size":"btn--medium","bg_color_secondary":false,"enable_slider_mobile":true,"width":"wrapper--full-padded","padding_top":60,"padding_bottom":40}},"section_list_butttons_mhe6mE":{"type":"section-list-butttons","blocks":{"button_3JzgPC":{"type":"button","settings":{"heading":"SEE ALL NEW IN","button_link":"shopify:\/\/collections\/new","overlay_opacity":100,"block_text_color":"#000000","bg_color":"#ffffff","border_color":""}}},"block_order":["button_3JzgPC"],"custom_css":["h3 {font-size: calc(1rem * var(--adjust-button));}"],"settings":{"layout":"grid","alignment":"center","collections_per_row":6,"title":"","heading_size":100,"type_style":"button-typography","button_style":"square","text_size":135,"letter_spacing":75,"section_bg_color":"#000000","section_text_color":"","layout_mobile":"grid","width":"wrapper--full-padded","padding_top":22,"padding_bottom":22}},"section_collection_kcBtFY":{"type":"section-collection","custom_css":["\/*.section__link {font-family: \"Roboto\";}","*\/.section__text {max-width: 660px !important;}",".product-grid-item__price {font-weight: 800 !important;}",".featured-collection {background-color: #fafafa !important;}"],"settings":{"collection":"bestsellers","products_layout":"grid","number_of_products":4,"products_per_row_on_desktop":4,"columns_mobile":"1","text_alignment":"text-center","title":"<p>BESTSELLERS<span class=\"red_dot\"><\/span><\/p>","heading_highlight_type":"circle","highlight_color":"#d43747","highlight_text_color":"#000000","heading_size":100,"text":"<p>Discover our most popular pieces, celebrated for their unparalleled craftsmanship and durability. Each item is a testament to the <strong>quality and timeless style.<\/strong> Perfect for enthusiasts who demand the best in denim and workwear.<\/p>","text_size":100,"button_text":"","bg_color_full":"rgba(0,0,0,0)","bg_color":"#000000","txt_color":"#fafafa","button_style":"btn--solid","button_size":"btn--medium","bg_color_secondary":false,"enable_slider_mobile":true,"width":"wrapper--full-padded","padding_top":60,"padding_bottom":60}},"section_products_list_th6frq":{"type":"section-products-list","blocks":{"product_N8bjjT":{"type":"product","settings":{"product":"iron-heart-ihsh-33-t-12oz-selvedge-denim-western-shirt-with-tonal-stitching-indigo","title":"","product_description":"<p>Classic western shirt made from one-washed 12oz indigo Japanese selvedge denim, with black Iron Heart Permex snaps, tonal dark blue stitching, and chain stitch runoff. A must-have wardrobe staple that’ll age beautifully over time.<\/p>","button_text":"View Product","show_second_image":false,"show_circle":true,"hide_on_mobile":false,"circle_text_color":"#000000","circle_rotate_animation":"rotate-on-scroll","circle_text":"","circle_word_spacing":3,"circle_size":150}}},"block_order":["product_N8bjjT"],"custom_css":[".products-list__nav__button {text-align: center;}",".products-list__nav__button > span {margin-top: 12px; font-weight: bold; text-transform: none; line-height: 28px; font-size: 22px;}","@media only screen and (min-width: 768px) {.products-list__container {padding-right: calc((100% + var(--gutter)) \/ 1.7) !important; }}",".products-list__item__aside {width: calc((100% - var(--gutter)) \/ 1.7);}",".products-list__price {font-weight: 800;}",".products-list__nav {margin-bottom: 8px;}"],"settings":{"image":"shopify:\/\/shop_images\/new_in_button.png","title":"","heading_size":80,"button_color":"btn--black","button_style":"btn--solid","button_size":"btn--large","image_aspect_ratio":1,"bg_color_secondary":false,"width":"wrapper--full-padded","padding_top":60,"padding_bottom":60}},"section_custom_content_GQ6xTT":{"type":"section-custom-content","blocks":{"image_qVU4zH":{"type":"image","settings":{"text_position":"top-center","image":"shopify:\/\/shop_images\/2J5A5883.jpg","overlay_opacity":10,"text_color":"text-light","title":"WESCO","heading_size":100,"image_text":"<p>Shop Wesco boots and accessories, including models exclusive to Iron Heart Germany.<\/p>","button_text":"","button_link":"shopify:\/\/collections\/wesco","button_color":"btn--white","button_style":"btn--solid-border","button_size":"btn--small"}},"image_8akLTM":{"type":"image","settings":{"text_position":"top-center","image":"shopify:\/\/shop_images\/8T7A5349-2_14f331bf-354c-4fa6-8828-13a4e8a308ce.jpg","overlay_opacity":0,"text_color":"text-light","title":"GOOD ART HLYWD","heading_size":100,"image_text":"<p>Shop Good Art HLYWD from the only retailer located in the European Union.<\/p>","button_text":"","button_link":"shopify:\/\/collections\/good-art-hlywd","button_color":"btn--white","button_style":"btn--solid-border","button_size":"btn--small"}}},"block_order":["image_qVU4zH","image_8akLTM"],"custom_css":["@media screen and (max-width: 767px) {#FeaturedImage--template--19385098830090__section_custom_content_GQ6xTT--image_qVU4zH {margin: 0px 0 !important; }}"," {margin: 32px 0 0 0;}"],"settings":{"height":"six-fifty-height","bg_color":"","reverse_blocks":false,"width":"wrapper--full","add_gutter":false,"padding_top":0,"padding_bottom":0}},"section_list_collection_h3CDQM":{"type":"section-list-collection","blocks":{"collection_wwewaC":{"type":"collection","settings":{"collection":"bottoms","heading":"","content":"Jeans, Trousers and Shorts","block_text_color":"","bg_color":"","overlay_opacity":30}},"collection_gtbemU":{"type":"collection","settings":{"collection":"tops","heading":"","content":"Jackets, Shirts, Sweaters,T-shirts and Vests","block_text_color":"","bg_color":"","overlay_opacity":30}},"collection_T8VYhn":{"type":"collection","settings":{"collection":"accessories","heading":"","content":"Belts, Bags, Jewelry, Hats, Wallets, Chains and more","block_text_color":"","bg_color":"","overlay_opacity":30}},"collection_i3cmqe":{"type":"collection","settings":{"collection":"footwear","heading":"","content":"Boots, Socks and Sneakers","block_text_color":"","bg_color":"","overlay_opacity":30}},"collection_wHz6Xr":{"type":"collection","settings":{"collection":"other","heading":"","content":"Hemming Service and Gift Cards","block_text_color":"","bg_color":"","overlay_opacity":30}}},"block_order":["collection_wwewaC","collection_gtbemU","collection_T8VYhn","collection_i3cmqe","collection_wHz6Xr"],"disabled":true,"custom_css":["\/*.section__header {font-family: \"Roboto\";}","*\/.section__header {margin-bottom: 52px;}",".list-collections__item__title {font-size: 22px;}",".coll_list_content {margin: 4px auto !important;}"],"settings":{"title":"CATEGORIES<span class=\"red_dot\"><\/span>","heading_size":100,"layout":"carousel","alignment":"center","collections_per_row":3,"image_shape":"square","image_aspect_ratio":0.7,"text_size":200,"overlay_text":false,"layout_mobile":"carousel","section_bg_color":"#ffffff","section_text_color":"#333333","width":"wrapper--full-padded","btn":"","btn_link":"","padding_top":30,"padding_bottom":60}},"section_columns_fEJfXc":{"type":"section-columns","blocks":{"text_block_F99bUB":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/reg_straight_vorne_fb52c676-372d-43cd-8ac9-e1588c18feff.png","title":"REGULAR STRAIGHT","text":"<p>634<\/p>","button_text":"Shop now","button_link":"shopify:\/\/collections\/straight-634","button_color":"btn--black","button_style":"btn--text","button_size":"btn--large","video_link_popup":"","video_link_color":"text-dark"}},"text_block_9ACLGN":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/relaxed_tappered_vorne_37244dd3-8335-4492-99ee-ab2e4308e076.png","title":"RELAXED TAPERED","text":"<p>888<\/p>","button_text":"Shop now","button_link":"shopify:\/\/collections\/relaxed-tapered-555","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}},"text_block_AxPBmE":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/slim_tappered_vorne.png","title":"SLIM TAPERED","text":"<p>777<\/p>","button_text":"Shop now","button_link":"shopify:\/\/collections\/slim-tapered-777","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}},"text_block_VPGrrF":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/slim_vorne_8522ce7b-3812-426a-adb3-a05c7970a082.png","title":"SLIM","text":"<p>666<\/p>","button_text":"Shop now","button_link":"shopify:\/\/collections\/slim-straight-666","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}},"text_block_wMDE3X":{"type":"text_block","settings":{"image":"shopify:\/\/shop_images\/super_slim_vorne_1c1675a8-3c9f-4f3f-91a2-6ce02b50113f.png","title":"SUPER SLIM","text":"<p>555<\/p>","button_text":"Shop now","button_link":"shopify:\/\/collections\/super-slim-555","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}}},"block_order":["text_block_F99bUB","text_block_9ACLGN","text_block_AxPBmE","text_block_VPGrrF","text_block_wMDE3X"],"custom_css":[".flickity-button {display: none;}",".h6 {font-size: 22px;}",".column-item__heading {margin-bottom: 0 !important;}"],"settings":{"title":"OUR CUTS","align_text":"text-center","columns":5,"show_images":true,"show_borders":false,"equalize_height":false,"desktop_aspect_ratio":1.3,"mobile_aspect_ratio":0.8,"heading_size":120,"text_size":100,"bg_color_secondary":true,"color_borders":"#000000","layout_mobile":"carousel","width":"wrapper","padding_top":60,"padding_bottom":60}},"section_list_butttons_jaEVdg":{"type":"section-list-butttons","blocks":{"button_LBaYGX":{"type":"button","settings":{"heading":"Discover our cuts","button_link":"shopify:\/\/pages\/our-cuts","overlay_opacity":100,"block_text_color":"#000000","bg_color":"#ffffff","border_color":""}}},"block_order":["button_LBaYGX"],"custom_css":["h3 {font-size: calc(1rem * var(--adjust-button));}"],"settings":{"layout":"grid","alignment":"center","collections_per_row":5,"title":"","heading_size":100,"type_style":"button-typography","button_style":"square","text_size":135,"letter_spacing":75,"section_bg_color":"#000000","section_text_color":"","layout_mobile":"grid","width":"wrapper--full-padded","padding_top":22,"padding_bottom":22}},"section_banner_image_XaJDWJ":{"type":"section-banner-image","blocks":{"heading_PCbtpR":{"type":"heading","settings":{"text":"<p>CRAFTSMANSHIP AND QUALITY<\/p>","size":120,"heading_highlight_type":"italics","highlight_color":"#d43747","highlight_text_color":"#000000"}},"text_UhmyHY":{"type":"text","settings":{"text":"<p>Iron Heart’s philosophy centers on unmatched craftsmanship and quality.<\/p>","size":120}},"button_qcEydt":{"type":"button","settings":{"button_1_text":"SHOP ALL SHIRTS","button_1_link":"shopify:\/\/collections\/shirts","button_1_color":"btn--white","button_1_style":"btn--outline","button_1_size":"btn--large","button_2_text":"","button_2_link":"","button_2_color":"btn--black","button_2_style":"btn--solid","button_2_size":"btn--small"}}},"block_order":["heading_PCbtpR","text_UhmyHY","button_qcEydt"],"custom_css":["{margin: 32px 28px;}",".red_dot:after {width: 7px; height: 7px;}"],"settings":{"height":"six-fifty-height","enable_mobile_height":false,"mobile_height":"four-fifty-height-mobile","image":"shopify:\/\/shop_images\/DSC_7662_1.jpg","overlay_opacity":40,"enable_zoom_animation":true,"text_width":"normal","text_position":"center","text_color":"text-light"}},"section_banner_image_WJ7DW7":{"type":"section-banner-image","blocks":{"heading_KUWDpm":{"type":"heading","settings":{"text":"<p>THE EVOLUTION OF IRON HEART<\/p>","size":120,"heading_highlight_type":"italics","highlight_color":"#d43747","highlight_text_color":"#000000"}},"text_PDzGzH":{"type":"text","settings":{"text":"<p>Founded in 2003 by Shinichi Haraki, Iron Heart set out to create the world’s toughest, most durable denim.<\/p>","size":120}},"button_ni9gFA":{"type":"button","settings":{"button_1_text":"SHOP ALL DENIM","button_1_link":"shopify:\/\/collections\/jeans","button_1_color":"btn--white","button_1_style":"btn--outline","button_1_size":"btn--large","button_2_text":"","button_2_link":"","button_2_color":"btn--black","button_2_style":"btn--solid","button_2_size":"btn--small"}}},"block_order":["heading_KUWDpm","text_PDzGzH","button_ni9gFA"],"custom_css":["{margin: 32px 28px;}",".red_dot:after {width: 7px; height: 7px;}"],"settings":{"height":"six-fifty-height","enable_mobile_height":false,"mobile_height":"four-fifty-height-mobile","image":"shopify:\/\/shop_images\/IH-634S-18-7977.jpg","overlay_opacity":40,"enable_zoom_animation":true,"text_width":"normal","text_position":"center","text_color":"text-light"}},"section_locations_r4cFBa":{"type":"section-locations","blocks":{"locations_Y3B873":{"type":"locations","settings":{"title":"Kaiser-Wilhelm-Straße 45, 20355 Hamburg","working_time":"<p><strong>MONDAY <\/strong>11:00–18:00<br\/><strong>TUESDAY<\/strong> 11:00–18:00<br\/><strong>WEDNESDAY<\/strong> closed<br\/><strong>THURSDAY<\/strong> 11:00–18:00<br\/><strong>FRIDAY<\/strong> 11:00–18:00<br\/><strong>SATURDAY<\/strong> 11:00–16:00<br\/><strong>SUNDAY<\/strong> closed<\/p>","icon":"shopify:\/\/shop_images\/Google_icon_58f1ae91-84f4-43c9-9fd7-ecb001d46b3c.png","icon_url":"https:\/\/maps.app.goo.gl\/2QN81w95PDjo5sSUA","image":"shopify:\/\/shop_images\/Store_Totale_2_HDR-1_cd3a9c82-f210-45bf-abc4-ff60eea0646a.jpg"}}},"block_order":["locations_Y3B873"],"custom_css":[".wrapper.locations__wrapper {padding-right: 0;}",".locations.bg-secondary .location__image {padding-top: 66% !important;}",".location__store > p {margin-bottom: 25px !important;}"],"settings":{"subheading":"The only IRON HEART store outside Japan","title":"HAMBURG SHOWROOM<span class=\"red_dot\"><\/span>","bg_color_secondary":true,"padding_top":60,"padding_bottom":60}},"section_newsletter_kRbEAq":{"type":"section-newsletter","custom_css":["button {background: #000; color: #fff; border: none;}"],"settings":{"flex_align":"align--middle-split","text_color":"text-light","title":"STAY IN THE LOOP<span class=\"red_dot\"><\/span>","text":"<p>Sign up for our newsletter to receive announcements of latest releases, previews of upcoming collections, and exclusive invitations to events. Don't miss out - join the crew!<\/p>","extra_fields":"name","button_text":"Join the crew","bg_color":"","image":"shopify:\/\/shop_images\/Iron_News.jpg","image_height":"three-fifty-height","overlay_opacity":10,"width":"wrapper--full-padded","padding_top":60,"padding_bottom":60}},"section_columns_Mb3rtT":{"type":"section-columns","blocks":{"text_block_jr4JHK":{"type":"text_block","settings":{"title":"Premium Japanese Craftmanship<span class=\"red_dot\"><\/span>","text":"<p>Iron Heart, founded by Shinichi Haraki in 2003, is celebrated for its heavyweight Japanese denim, crafted for durability and timeless style. Designed with motorcycle enthusiasts in mind, the brand’s rugged pieces offer exceptional fading potential and unmatched quality. Explore why Iron Heart is a top choice for denim lovers worldwide.<\/p>","button_text":"","button_link":"","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}},"text_block_q6EGYR":{"type":"text_block","settings":{"title":"Iconic Heavyweight Garments<span class=\"red_dot\"><\/span>","text":"<p>Iron Heart’s collection showcases its commitment to heavyweight fabrics and exceptional craftsmanship. From 21oz and 25oz denim jeans to Ultra Heavy Flannel (UHF) shirts, each piece is built for durability and timeless style. Loved by bikers and fashion enthusiasts alike, these iconic garments define Iron Heart’s legacy in premium workwear.<\/p>","button_text":"","button_link":"","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}}},"block_order":["text_block_jr4JHK","text_block_q6EGYR"],"custom_css":["@media screen and (max-width: 767px) {.column-item {width: 65% !important; margin-right: 12% !important; }}"],"settings":{"title":"","align_text":"text-left","columns":2,"show_images":false,"show_borders":false,"equalize_height":true,"desktop_aspect_ratio":0.8,"mobile_aspect_ratio":0.8,"heading_size":170,"text_size":100,"bg_color_secondary":false,"color_borders":"#000000","layout_mobile":"carousel","width":"wrapper--full-padded","padding_top":60,"padding_bottom":30}}},"order":["section_slideshow_dTDLLQ","section_collection_wbgefN","section_list_butttons_mhe6mE","section_collection_kcBtFY","section_products_list_th6frq","section_custom_content_GQ6xTT","section_list_collection_h3CDQM","section_columns_fEJfXc","section_list_butttons_jaEVdg","section_banner_image_XaJDWJ","section_banner_image_WJ7DW7","section_locations_r4cFBa","section_newsletter_kRbEAq","section_columns_Mb3rtT"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_slideshow_dTDLLQ": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_Mc6ncH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2J5A6388_88f1b133-8b6c-4eae-8bf1-820f7e0562cc.jpg",
+            "image_mobile": "shopify://shop_images/2J5A6388_1.jpg",
+            "overlay_opacity": 0,
+            "text_width": "normal",
+            "text_position": "bottom-right",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "GOOD ART<span class=\"red_dot\"></span>",
+            "heading_font_size": 40,
+            "text_font_size": 22,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "Club Ring Medium - Sterling Silver",
+            "button_1_text": "Shop",
+            "button_1_link": "https://ironheartgermany.com/collections/good-art-hlywd/products/good-art-hlywd-good-art-club-ring-medium-sterling-silver",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--outline",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_e8ntQh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WE-907CXL-BRN_014_24_10_1e10134b-1d32-4371-9540-fb23d7cbd028.jpg",
+            "image_mobile": "shopify://shop_images/WE-907CXL-BRN_030_24_10_394f60aa-c0f0-4c23-9ffe-0446764bfd43.jpg",
+            "overlay_opacity": 10,
+            "text_width": "narrow",
+            "text_position": "top-left",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "WESCO<span class=\"red_dot\"></span>",
+            "heading_font_size": 40,
+            "text_font_size": 26,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "Custom Warren Chromexcel",
+            "button_1_text": "Shop",
+            "button_1_link": "https://ironheartgermany.com/collections/wesco/products/wesco-we-907cxl-brn-custom-warren-chromexcel-brown",
+            "button_1_color": "btn--secondary",
+            "button_1_style": "btn--outline",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Mc6ncH",
+        "image_e8ntQh"
+      ],
+      "custom_css": [
+        "h1 {text-transform: none; font-size: 52px; line-height: 56px;}",
+        ".subheading-text {font-size: 12px;}",
+        ".red_dot:after {top: 2px; position: relative; width: 7px; height: 7px;}",
+        ".btn {width: fit-content !important;}",
+        ".main-buttons {margin: 32px 0 0 0 !important;}",
+        ".slide__heading.main-heading {line-height: 1em !important;}"
+      ],
+      "settings": {
+        "slide_height": "three-quarters-height",
+        "enable_mobile_height": true,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 130
+      }
+    },
+    "section_collection_wbgefN": {
+      "type": "section-collection",
+      "custom_css": [
+        "/*.section__link {font-family: \"Roboto\";}",
+        "*/.section__text {max-width: 660px !important;}",
+        ".product-grid-item__price {font-weight: 800 !important;}"
+      ],
+      "settings": {
+        "collection": "new",
+        "products_layout": "carousel",
+        "number_of_products": 12,
+        "products_per_row_on_desktop": 3,
+        "columns_mobile": "1",
+        "text_alignment": "text-center",
+        "title": "<p>NEW IN<span class=\"red_dot\"></span></p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "bg_color_full": "#000000",
+        "bg_color": "#fafafa",
+        "txt_color": "#000000",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 40
+      }
+    },
+    "section_list_butttons_mhe6mE": {
+      "type": "section-list-butttons",
+      "blocks": {
+        "button_3JzgPC": {
+          "type": "button",
+          "settings": {
+            "heading": "SEE ALL NEW IN",
+            "button_link": "shopify://collections/new",
+            "overlay_opacity": 100,
+            "block_text_color": "#000000",
+            "bg_color": "#ffffff",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_3JzgPC"
+      ],
+      "custom_css": [
+        "h3 {font-size: calc(1rem * var(--adjust-button));}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "alignment": "center",
+        "collections_per_row": 6,
+        "title": "",
+        "heading_size": 100,
+        "type_style": "button-typography",
+        "button_style": "square",
+        "text_size": 135,
+        "letter_spacing": 75,
+        "section_bg_color": "#000000",
+        "section_text_color": "",
+        "layout_mobile": "grid",
+        "width": "wrapper--full-padded",
+        "padding_top": 22,
+        "padding_bottom": 22
+      }
+    },
+    "section_collection_kcBtFY": {
+      "type": "section-collection",
+      "custom_css": [
+        "/*.section__link {font-family: \"Roboto\";}",
+        "*/.section__text {max-width: 660px !important;}",
+        ".product-grid-item__price {font-weight: 800 !important;}",
+        ".featured-collection {background-color: #fafafa !important;}"
+      ],
+      "settings": {
+        "collection": "bestsellers",
+        "products_layout": "grid",
+        "number_of_products": 4,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "1",
+        "text_alignment": "text-center",
+        "title": "<p>BESTSELLERS<span class=\"red_dot\"></span></p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "<p>Discover our most popular pieces, celebrated for their unparalleled craftsmanship and durability. Each item is a testament to the <strong>quality and timeless style.</strong> Perfect for enthusiasts who demand the best in denim and workwear.</p>",
+        "text_size": 100,
+        "button_text": "",
+        "bg_color_full": "rgba(0,0,0,0)",
+        "bg_color": "#000000",
+        "txt_color": "#fafafa",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_products_list_th6frq": {
+      "type": "section-products-list",
+      "blocks": {
+        "product_N8bjjT": {
+          "type": "product",
+          "settings": {
+            "product": "iron-heart-ihsh-33-t-12oz-selvedge-denim-western-shirt-with-tonal-stitching-indigo",
+            "title": "",
+            "product_description": "<p>Classic western shirt made from one-washed 12oz indigo Japanese selvedge denim, with black Iron Heart Permex snaps, tonal dark blue stitching, and chain stitch runoff. A must-have wardrobe staple that’ll age beautifully over time.</p>",
+            "button_text": "View Product",
+            "show_second_image": false,
+            "show_circle": true,
+            "hide_on_mobile": false,
+            "circle_text_color": "#000000",
+            "circle_rotate_animation": "rotate-on-scroll",
+            "circle_text": "",
+            "circle_word_spacing": 3,
+            "circle_size": 150
+          }
+        }
+      },
+      "block_order": [
+        "product_N8bjjT"
+      ],
+      "custom_css": [
+        ".products-list__nav__button {text-align: center;}",
+        ".products-list__nav__button > span {margin-top: 12px; font-weight: bold; text-transform: none; line-height: 28px; font-size: 22px;}",
+        "@media only screen and (min-width: 768px) {.products-list__container {padding-right: calc((100% + var(--gutter)) / 1.7) !important; }}",
+        ".products-list__item__aside {width: calc((100% - var(--gutter)) / 1.7);}",
+        ".products-list__price {font-weight: 800;}",
+        ".products-list__nav {margin-bottom: 8px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/new_in_button.png",
+        "title": "",
+        "heading_size": 80,
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--large",
+        "image_aspect_ratio": 1,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_content_GQ6xTT": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_qVU4zH": {
+          "type": "image",
+          "settings": {
+            "text_position": "top-center",
+            "image": "shopify://shop_images/2J5A5883.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "WESCO",
+            "heading_size": 100,
+            "image_text": "<p>Shop Wesco boots and accessories, including models exclusive to Iron Heart Germany.</p>",
+            "button_text": "",
+            "button_link": "shopify://collections/wesco",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "image_8akLTM": {
+          "type": "image",
+          "settings": {
+            "text_position": "top-center",
+            "image": "shopify://shop_images/8T7A5349-2_14f331bf-354c-4fa6-8828-13a4e8a308ce.jpg",
+            "overlay_opacity": 0,
+            "text_color": "text-light",
+            "title": "GOOD ART HLYWD",
+            "heading_size": 100,
+            "image_text": "<p>Shop Good Art HLYWD from the only retailer located in the European Union.</p>",
+            "button_text": "",
+            "button_link": "shopify://collections/good-art-hlywd",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_qVU4zH",
+        "image_8akLTM"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {#FeaturedImage--template--19385098830090__section_custom_content_GQ6xTT--image_qVU4zH {margin: 0px 0 !important; }}",
+        " brick__block{margin: 32px 0 0 0;}"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper--full",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collection_h3CDQM": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_wwewaC": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottoms",
+            "heading": "",
+            "content": "Jeans, Trousers and Shorts",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gtbemU": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops",
+            "heading": "",
+            "content": "Jackets, Shirts, Sweaters,T-shirts and Vests",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_T8VYhn": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "heading": "",
+            "content": "Belts, Bags, Jewelry, Hats, Wallets, Chains and more",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_i3cmqe": {
+          "type": "collection",
+          "settings": {
+            "collection": "footwear",
+            "heading": "",
+            "content": "Boots, Socks and Sneakers",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_wHz6Xr": {
+          "type": "collection",
+          "settings": {
+            "collection": "other",
+            "heading": "",
+            "content": "Hemming Service and Gift Cards",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_wwewaC",
+        "collection_gtbemU",
+        "collection_T8VYhn",
+        "collection_i3cmqe",
+        "collection_wHz6Xr"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "/*.section__header {font-family: \"Roboto\";}",
+        "*/.section__header {margin-bottom: 52px;}",
+        ".list-collections__item__title {font-size: 22px;}",
+        ".coll_list_content {margin: 4px auto !important;}"
+      ],
+      "settings": {
+        "title": "CATEGORIES<span class=\"red_dot\"></span>",
+        "heading_size": 100,
+        "layout": "carousel",
+        "alignment": "center",
+        "collections_per_row": 3,
+        "image_shape": "square",
+        "image_aspect_ratio": 0.7,
+        "text_size": 200,
+        "overlay_text": false,
+        "layout_mobile": "carousel",
+        "section_bg_color": "#ffffff",
+        "section_text_color": "#333333",
+        "width": "wrapper--full-padded",
+        "btn": "",
+        "btn_link": "",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_fEJfXc": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_F99bUB": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/reg_straight_vorne_fb52c676-372d-43cd-8ac9-e1588c18feff.png",
+            "title": "REGULAR STRAIGHT",
+            "text": "<p>634</p>",
+            "button_text": "Shop now",
+            "button_link": "shopify://collections/straight-634",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--large",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_9ACLGN": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/relaxed_tappered_vorne_37244dd3-8335-4492-99ee-ab2e4308e076.png",
+            "title": "RELAXED TAPERED",
+            "text": "<p>888</p>",
+            "button_text": "Shop now",
+            "button_link": "shopify://collections/relaxed-tapered-555",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_AxPBmE": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/slim_tappered_vorne.png",
+            "title": "SLIM TAPERED",
+            "text": "<p>777</p>",
+            "button_text": "Shop now",
+            "button_link": "shopify://collections/slim-tapered-777",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_VPGrrF": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/slim_vorne_8522ce7b-3812-426a-adb3-a05c7970a082.png",
+            "title": "SLIM",
+            "text": "<p>666</p>",
+            "button_text": "Shop now",
+            "button_link": "shopify://collections/slim-straight-666",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_wMDE3X": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/super_slim_vorne_1c1675a8-3c9f-4f3f-91a2-6ce02b50113f.png",
+            "title": "SUPER SLIM",
+            "text": "<p>555</p>",
+            "button_text": "Shop now",
+            "button_link": "shopify://collections/super-slim-555",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_F99bUB",
+        "text_block_9ACLGN",
+        "text_block_AxPBmE",
+        "text_block_VPGrrF",
+        "text_block_wMDE3X"
+      ],
+      "custom_css": [
+        ".flickity-button {display: none;}",
+        ".h6 {font-size: 22px;}",
+        ".column-item__heading {margin-bottom: 0 !important;}"
+      ],
+      "settings": {
+        "title": "OUR CUTS",
+        "align_text": "text-center",
+        "columns": 5,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": false,
+        "desktop_aspect_ratio": 1.3,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": true,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_list_butttons_jaEVdg": {
+      "type": "section-list-butttons",
+      "blocks": {
+        "button_LBaYGX": {
+          "type": "button",
+          "settings": {
+            "heading": "Discover our cuts",
+            "button_link": "shopify://pages/our-cuts",
+            "overlay_opacity": 100,
+            "block_text_color": "#000000",
+            "bg_color": "#ffffff",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_LBaYGX"
+      ],
+      "custom_css": [
+        "h3 {font-size: calc(1rem * var(--adjust-button));}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "alignment": "center",
+        "collections_per_row": 5,
+        "title": "",
+        "heading_size": 100,
+        "type_style": "button-typography",
+        "button_style": "square",
+        "text_size": 135,
+        "letter_spacing": 75,
+        "section_bg_color": "#000000",
+        "section_text_color": "",
+        "layout_mobile": "grid",
+        "width": "wrapper--full-padded",
+        "padding_top": 22,
+        "padding_bottom": 22
+      }
+    },
+    "section_banner_image_XaJDWJ": {
+      "type": "section-banner-image",
+      "blocks": {
+        "heading_PCbtpR": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>CRAFTSMANSHIP AND QUALITY</p>",
+            "size": 120,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_UhmyHY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Iron Heart’s philosophy centers on unmatched craftsmanship and quality.</p>",
+            "size": 120
+          }
+        },
+        "button_qcEydt": {
+          "type": "button",
+          "settings": {
+            "button_1_text": "SHOP ALL SHIRTS",
+            "button_1_link": "shopify://collections/shirts",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--outline",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PCbtpR",
+        "text_UhmyHY",
+        "button_qcEydt"
+      ],
+      "custom_css": [
+        "{margin: 32px 28px;}",
+        ".red_dot:after {width: 7px; height: 7px;}"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/DSC_7662_1.jpg",
+        "overlay_opacity": 40,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
+    },
+    "section_banner_image_WJ7DW7": {
+      "type": "section-banner-image",
+      "blocks": {
+        "heading_KUWDpm": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>THE EVOLUTION OF IRON HEART</p>",
+            "size": 120,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_PDzGzH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Founded in 2003 by Shinichi Haraki, Iron Heart set out to create the world’s toughest, most durable denim.</p>",
+            "size": 120
+          }
+        },
+        "button_ni9gFA": {
+          "type": "button",
+          "settings": {
+            "button_1_text": "SHOP ALL DENIM",
+            "button_1_link": "shopify://collections/jeans",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--outline",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KUWDpm",
+        "text_PDzGzH",
+        "button_ni9gFA"
+      ],
+      "custom_css": [
+        "{margin: 32px 28px;}",
+        ".red_dot:after {width: 7px; height: 7px;}"
+      ],
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/IH-634S-18-7977.jpg",
+        "overlay_opacity": 40,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
+    },
+    "section_locations_r4cFBa": {
+      "type": "section-locations",
+      "blocks": {
+        "locations_Y3B873": {
+          "type": "locations",
+          "settings": {
+            "title": "Kaiser-Wilhelm-Straße 45, 20355 Hamburg",
+            "working_time": "<p><strong>MONDAY </strong>11:00–18:00<br/><strong>TUESDAY</strong> 11:00–18:00<br/><strong>WEDNESDAY</strong> closed<br/><strong>THURSDAY</strong> 11:00–18:00<br/><strong>FRIDAY</strong> 11:00–18:00<br/><strong>SATURDAY</strong> 11:00–16:00<br/><strong>SUNDAY</strong> closed</p>",
+            "icon": "shopify://shop_images/Google_icon_58f1ae91-84f4-43c9-9fd7-ecb001d46b3c.png",
+            "icon_url": "https://maps.app.goo.gl/2QN81w95PDjo5sSUA",
+            "image": "shopify://shop_images/Store_Totale_2_HDR-1_cd3a9c82-f210-45bf-abc4-ff60eea0646a.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "locations_Y3B873"
+      ],
+      "custom_css": [
+        ".wrapper.locations__wrapper {padding-right: 0;}",
+        ".locations.bg-secondary .location__image {padding-top: 66% !important;}",
+        ".location__store > p {margin-bottom: 25px !important;}"
+      ],
+      "settings": {
+        "subheading": "The only IRON HEART store outside Japan",
+        "title": "HAMBURG SHOWROOM<span class=\"red_dot\"></span>",
+        "bg_color_secondary": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_newsletter_kRbEAq": {
+      "type": "section-newsletter",
+      "custom_css": [
+        "button {background: #000; color: #fff; border: none;}"
+      ],
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-light",
+        "title": "STAY IN THE LOOP<span class=\"red_dot\"></span>",
+        "text": "<p>Sign up for our newsletter to receive announcements of latest releases, previews of upcoming collections, and exclusive invitations to events. Don't miss out - join the crew!</p>",
+        "extra_fields": "name",
+        "button_text": "Join the crew",
+        "bg_color": "",
+        "image": "shopify://shop_images/Iron_News.jpg",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_Mb3rtT": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_jr4JHK": {
+          "type": "text_block",
+          "settings": {
+            "title": "Premium Japanese Craftmanship<span class=\"red_dot\"></span>",
+            "text": "<p>Iron Heart, founded by Shinichi Haraki in 2003, is celebrated for its heavyweight Japanese denim, crafted for durability and timeless style. Designed with motorcycle enthusiasts in mind, the brand’s rugged pieces offer exceptional fading potential and unmatched quality. Explore why Iron Heart is a top choice for denim lovers worldwide.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_q6EGYR": {
+          "type": "text_block",
+          "settings": {
+            "title": "Iconic Heavyweight Garments<span class=\"red_dot\"></span>",
+            "text": "<p>Iron Heart’s collection showcases its commitment to heavyweight fabrics and exceptional craftsmanship. From 21oz and 25oz denim jeans to Ultra Heavy Flannel (UHF) shirts, each piece is built for durability and timeless style. Loved by bikers and fashion enthusiasts alike, these iconic garments define Iron Heart’s legacy in premium workwear.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_jr4JHK",
+        "text_block_q6EGYR"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.column-item {width: 65% !important; margin-right: 12% !important; }}"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 2,
+        "show_images": false,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 170,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "section_slideshow_dTDLLQ",
+    "section_collection_wbgefN",
+    "section_list_butttons_mhe6mE",
+    "section_collection_kcBtFY",
+    "section_products_list_th6frq",
+    "section_custom_content_GQ6xTT",
+    "section_list_collection_h3CDQM",
+    "section_columns_fEJfXc",
+    "section_list_butttons_jaEVdg",
+    "section_banner_image_XaJDWJ",
+    "section_banner_image_WJ7DW7",
+    "section_locations_r4cFBa",
+    "section_newsletter_kRbEAq",
+    "section_columns_Mb3rtT"
+  ]
+}
