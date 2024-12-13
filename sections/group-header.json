@@ -71,7 +71,7 @@
         "header_border": true,
         "link_hover_effect": "dot",
         "logo_not_home": "shopify://shop_images/ih_germany_bell_text.png",
-        "logo_max_width": 280,
+        "logo_max_width": 350,
         "main-menu": "main-menu",
         "main_menu_secondary": "",
         "show_images": true,
