@@ -8397,9 +8397,7 @@
                   const s = (t) => {
                     t.target === e &&
                       (requestAnimationFrame(() =>
-                      if (i) {
-    i.dispatchEvent(new Event("click", { bubbles: true }));
-}
+                        i.dispatchEvent(new Event("click", { bubbles: !0 }))
                       ),
                       e.removeEventListener("transitionend", s));
                   };
