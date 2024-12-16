@@ -700,7 +700,8 @@
       "type": "section-newsletter",
       "custom_css": [
         "button {background: #000; color: #fff; border: none;}",
-        "input {color: #000;}"
+        "input {color: #000;}",
+        "form-success {background-color: white;}"
       ],
       "settings": {
         "flex_align": "align--middle-split",
