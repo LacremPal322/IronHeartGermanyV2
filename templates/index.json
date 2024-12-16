@@ -699,7 +699,8 @@
     "section_newsletter_kRbEAq": {
       "type": "section-newsletter",
       "custom_css": [
-        "button {background: #000; color: #fff; border: none;}"
+        "button {background: #000; color: #fff; border: none;}",
+        "input {color: #000;}"
       ],
       "settings": {
         "flex_align": "align--middle-split",
