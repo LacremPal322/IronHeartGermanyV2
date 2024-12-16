@@ -268,10 +268,10 @@
             "title": "WESCO",
             "heading_size": 100,
             "image_text": "<p>Shop Wesco boots and accessories, including models exclusive to Iron Heart Germany.</p>",
-            "button_text": "",
+            "button_text": "Shop",
             "button_link": "shopify://collections/wesco",
             "button_color": "btn--white",
-            "button_style": "btn--solid-border",
+            "button_style": "btn--outline",
             "button_size": "btn--small"
           }
         },
@@ -285,10 +285,10 @@
             "title": "GOOD ART HLYWD",
             "heading_size": 100,
             "image_text": "<p>Shop Good Art HLYWD from the only retailer located in the European Union.</p>",
-            "button_text": "",
+            "button_text": "Shop",
             "button_link": "shopify://collections/good-art-hlywd",
             "button_color": "btn--white",
-            "button_style": "btn--solid-border",
+            "button_style": "btn--outline",
             "button_size": "btn--small"
           }
         }
