@@ -406,7 +406,7 @@
                       const updateSKU = (variantId) => {
                         const selectedVariant = productVariants.find(variant => variant.id === parseInt(variantId));
                         if (selectedVariant) {
-                          skuSubtitle.textContent = selectedVariant.sku || 'No SKU available';
+                          skuSubtitle.textContent = selectedVariant.sku || '';
                         }
                       };
 
@@ -421,7 +421,7 @@
                   });
                 </script>
 
-                <div id="sku_subtitle"></div>
+                <h2 id="sku_subtitle"></h2>
               </div>
               {%- assign currency_code_enable = settings.currency_code_enable -%}
 
