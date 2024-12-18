@@ -233,14 +233,14 @@
   {%- endif -%}
 {%- endcapture -%}
 
-    <h1 class="logo" data-logo data-takes-space>
+    <span class="logo" data-logo data-takes-space>
       {%- if logo_not_home_markup != blank or logo_markup != blank -%}
         {{- logo_not_home_markup -}}
         {{- logo_markup -}}
       {%- else -%}
         <a href="{{ routes.root_url }}" class="logo__text-link" data-logo-text-link>{{ shop.name }}</a>
       {%- endif -%}
-    </h1>
+    </span>
     <!-- /partials/site-nav.liquid -->
     {%- liquid
       assign header_icons_as_text = section.settings.header_icons_as_text
