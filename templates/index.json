@@ -653,7 +653,8 @@
       ],
       "custom_css": [
         "{margin: 32px 28px;}",
-        ".red_dot:after {width: 7px; height: 7px;}"
+        ".red_dot:after {width: 7px; height: 7px;}",
+        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}"
       ],
       "settings": {
         "height": "six-fifty-height",
