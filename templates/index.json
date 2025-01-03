@@ -43,6 +43,37 @@
             "video_link": ""
           }
         },
+        "image_XHfcna": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IHSW-HAM-BLK_032_24_12_c.jpg",
+            "image_mobile": "shopify://shop_images/IHSW-HAM-BLK_032_24_12_c_1.jpg",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "bottom-left",
+            "text_color": "text-light",
+            "subheading": "Collaboration",
+            "title": "<p>MONDAY 7pm</p>",
+            "heading_font_size": 36,
+            "text_font_size": 16,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000",
+            "text": "IRON HEART HAMBURG HOODIE",
+            "button_1_text": "Shop",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
         "image_e8ntQh": {
           "type": "image",
           "settings": {
@@ -77,6 +108,7 @@
       },
       "block_order": [
         "image_Mc6ncH",
+        "image_XHfcna",
         "image_e8ntQh"
       ],
       "custom_css": [
