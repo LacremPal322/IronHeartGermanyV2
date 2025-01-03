@@ -14,6 +14,7 @@
       "blocks": {
         "image_Mc6ncH": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2J5A6388_88f1b133-8b6c-4eae-8bf1-820f7e0562cc.jpg",
             "image_mobile": "shopify://shop_images/2J5A6388_1.jpg",
@@ -76,6 +77,7 @@
         },
         "image_e8ntQh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/WE-907CXL-BRN_014_24_10_1e10134b-1d32-4371-9540-fb23d7cbd028.jpg",
             "image_mobile": "shopify://shop_images/WE-907CXL-BRN_030_24_10_394f60aa-c0f0-4c23-9ffe-0446764bfd43.jpg",
