@@ -718,6 +718,17 @@
       },
       {
         "type": "header",
+        "content": "Seasonal Releases"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_seasonal_releases",
+        "label": "Show seasonal release info",
+        "default": false,
+        "info": "Show text under the SKU indicating if a product is a Seasonal Release or in Continuous Prouction."
+      },
+      {
+        "type": "header",
         "content": "Gift card"
       },
       {

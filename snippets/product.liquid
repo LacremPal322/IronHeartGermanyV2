@@ -434,6 +434,16 @@
                 </script>
 
                 <h2 id="sku_subtitle"></h2>
+                {% comment %} P. Ryan - 12.01.25 - Seasonal Release {% endcomment %}
+                {%- if settings.show_seasonal_releases -%}
+                  {%- assign tags_lower = product.tags | join: ',' | downcase | split: ',' -%}
+                  {%- assign release_type = "CONTINUOUS PRODUCTION"-%}
+                  {%- if tags_lower contains "seasonal" -%}
+                    {%- assign release_type = "SEASONAL OR LIMITED RUN" -%}
+                  {% endif %}
+                  <h2 id="seasonal_release">{{ release_type  }}</h2>
+                {%- endif -%} 
+
               </div>
               {%- assign currency_code_enable = settings.currency_code_enable -%}
 
