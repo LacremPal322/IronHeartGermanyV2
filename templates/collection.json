@@ -44,6 +44,9 @@
       "block_order": [
         "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1"
       ],
+      "custom_css": [
+        ".text-highlight__break {text-transform: uppercase!important;}"
+      ],
       "settings": {
         "text_position": "left",
         "bg_color_secondary": false,
