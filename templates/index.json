@@ -59,7 +59,7 @@
             "title": "<p>Collaboration</p>",
             "heading_font_size": 36,
             "text_font_size": 22,
-            "heading_font_size_mobile": 12,
+            "heading_font_size_mobile": 30,
             "text_font_size_mobile": 20,
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
