@@ -45,7 +45,7 @@
         "template--21524360200470__8d9a9dcc-b650-4240-8dbe-558bd59ba535-heading-1"
       ],
       "custom_css": [
-        ".text-highlight__break {text-transform: uppercase!important;}"
+        "span {text-transform: uppercase;}"
       ],
       "settings": {
         "text_position": "left",
