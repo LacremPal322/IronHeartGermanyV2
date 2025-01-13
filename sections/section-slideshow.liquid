@@ -84,6 +84,8 @@
         assign video_link = block.settings.video_link
         assign heading_font_size = block.settings.heading_font_size
         assign text_font_size = block.settings.text_font_size
+        assign heading_font_size_mobile = block.settings.heading_font_size_mobile | default: 24
+        assign text_font_size_mobile = block.settings.text_font_size_mobile | default: 14
         assign unique = block.id
         assign animation_order = 1
 
@@ -163,6 +165,16 @@
         }
         #Slideshow--{{ section.id }} .item--{{ unique }} .slide__text {
           font-size: {{ text_font_size }}px;
+        }
+
+        /* Mobile font sizes */
+        @media screen and (max-width: 767px) {
+          #Slideshow--{{ section.id }} .item--{{ unique }} .slide__heading {
+            font-size: {{ heading_font_size_mobile }}px;
+          }
+          #Slideshow--{{ section.id }} .item--{{ unique }} .slide__text {
+            font-size: {{ text_font_size_mobile }}px;
+          }
         }
 
         /* Adjust button width on mobile */
@@ -595,6 +607,27 @@
           "min": 12,
           "max": 32,
           "step": 2,
+          "unit": "px"
+        },
+        // **Added Mobile Font Size Settings**
+        {
+          "type": "range",
+          "id": "heading_font_size_mobile",
+          "label": "Heading font size (mobile)",
+          "default": 24,
+          "min": 12,
+          "max": 36,
+          "step": 2,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "text_font_size_mobile",
+          "label": "Text font size (mobile)",
+          "default": 14,
+          "min": 10,
+          "max": 24,
+          "step": 1,
           "unit": "px"
         },
         {
