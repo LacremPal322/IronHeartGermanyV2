@@ -108,7 +108,7 @@
     "show_scroll_to_top": false,
     "show_header_search": true,
     "show_header_search_icon_mobile": true,
-    "suggest_pages": true,
+    "suggest_pages": false,
     "suggestions_results_limit": 5,
     "show_browse_categories_menu": false,
     "suggestions_terms_limit": 10,
