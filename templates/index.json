@@ -12,6 +12,39 @@
     "section_slideshow_dTDLLQ": {
       "type": "section-slideshow",
       "blocks": {
+        "image_e8ntQh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SS25_Intro_graphic.jpg",
+            "image_mobile": "shopify://shop_images/SS25_newsletter_final.jpg",
+            "overlay_opacity": 0,
+            "text_width": "narrow",
+            "text_position": "bottom-right",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "",
+            "heading_font_size": 40,
+            "text_font_size": 26,
+            "heading_font_size_mobile": 24,
+            "text_font_size_mobile": 14,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "PREVIEW",
+            "button_1_link": "https://ironheartgermany.com/collections/spring-summer-25-preview/SS25",
+            "button_1_color": "btn--secondary",
+            "button_1_style": "btn--outline",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
         "image_XHfcna": {
           "type": "image",
           "disabled": true,
@@ -35,39 +68,6 @@
             "button_1_text": "SHOP",
             "button_1_link": "https://ironheartgermany.com/collections/new/products/iron-heart-ihsw-ham-blk-14oz-ultra-heavyweight-loopwheel-cotton-hoodie-collaboration-vintage-black",
             "button_1_color": "btn--white",
-            "button_1_style": "btn--outline",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
-        },
-        "image_e8ntQh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SS25_Intro_graphic.jpg",
-            "image_mobile": "shopify://shop_images/SS25_newsletter_final.jpg",
-            "overlay_opacity": 10,
-            "text_width": "narrow",
-            "text_position": "bottom-right",
-            "text_color": "text-light",
-            "subheading": "",
-            "title": "",
-            "heading_font_size": 40,
-            "text_font_size": 26,
-            "heading_font_size_mobile": 24,
-            "text_font_size_mobile": 14,
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000",
-            "text": "",
-            "button_1_text": "PREVIEW",
-            "button_1_link": "https://ironheartgermany.com/collections/spring-summer-25-preview/SS25",
-            "button_1_color": "btn--secondary",
             "button_1_style": "btn--outline",
             "button_1_size": "btn--small",
             "button_2_text": "",
@@ -115,8 +115,8 @@
         }
       },
       "block_order": [
-        "image_XHfcna",
         "image_e8ntQh",
+        "image_XHfcna",
         "image_Mc6ncH"
       ],
       "custom_css": [
