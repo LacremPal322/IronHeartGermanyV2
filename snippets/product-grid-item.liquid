@@ -197,10 +197,9 @@
 -%}
 
 {%- capture product_title -%}
-  {%- assign title_parts = product.title | split: " - " -%}
-  {%- assign filtered_title = title_parts | slice: 1, title_parts.size | join: " - " -%}
-  <a class="product-grid-item__title {{ heading_style }}" href="{{ product.url | within: collection }}" aria-label="{{ filtered_title | strip_html | escape }}"{% if index > 1 %} tabindex="-1"{% endif %} data-grid-link>
-    {{- filtered_title | strip_html | escape -}}
+  {%- assign title_parts = product.title | split: " - " | first | append: "SPLIT_HERE" | append: product.title | remove_first: product.title | split: "SPLIT_HERE" | last -%}
+  <a class="product-grid-item__title {{ heading_style }}" href="{{ product.url | within: collection }}" aria-label="{{ title_parts | strip_html | escape }}"{% if index > 1 %} tabindex="-1"{% endif %} data-grid-link>
+    {{- title_parts | strip_html | escape -}}
   </a>
   {%- assign current_variant = product.selected_or_first_available_variant -%}
   <a class="product-grid-item__title sku" href="{{ product.url | within: collection }}"> {{ current_variant.sku }} </a>
