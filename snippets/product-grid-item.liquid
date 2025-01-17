@@ -197,8 +197,8 @@
 -%}
 
 {%- capture product_title -%}
-  {%- assign sku = product.variants.first.sku | append: " " -%}
-  {%- assign filtered_title = product.title | remove_first: sku -%}
+  {%- assign title_parts = product.title | split: " - " -%}
+  {%- assign filtered_title = title_parts | slice: 1, title_parts.size | join: " - " -%}
   <a class="product-grid-item__title {{ heading_style }}" href="{{ product.url | within: collection }}" aria-label="{{ filtered_title | strip_html | escape }}"{% if index > 1 %} tabindex="-1"{% endif %} data-grid-link>
     {{- filtered_title | strip_html | escape -}}
   </a>
