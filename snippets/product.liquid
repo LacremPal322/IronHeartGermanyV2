@@ -385,19 +385,12 @@
                 {%- endcase -%}
 
                 <h1 class="product__title">
-                  {%- assign title_parts = product_title
-                    | split: ' - '
-                    | first
-                    | append: 'SPLIT_HERE'
-                    | append: product_title
-                    | remove_first: product_title
-                    | split: 'SPLIT_HERE'
-                    | last
-                  -%}
+                  {%- assign title_parts = product_title | split: ' - ' -%}
+                  {%- assign filtered_title = title_parts | slice: 1, title_parts.size | join: ' - ' -%}
                   {%- if template.name == 'product' and section_type != 'featured' -%}
-                    {{- title_parts -}}
+                    {{- filtered_title -}}
                   {%- else -%}
-                    <a href="{{ product_url }}" title="{{ title_parts }}">{{ title_parts }}</a>
+                    <a href="{{ product_url }}" title="{{ filtered_title }}">{{ filtered_title }}</a>
                   {%- endif -%}
                 </h1>
                 <script>
