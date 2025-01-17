@@ -385,15 +385,9 @@
                 {%- endcase -%}
 
                 <h1 class="product__title">
-                  {%- if template.name == 'product' and section_type != 'featured' -%}
-                    {%- assign sku = product.variants.first.sku | append: ' ' -%}
-                    {%- assign filtered_title = product_title | remove_first: sku -%}
-                    {{- filtered_title -}}
-                  {%- else -%}
-                    {%- assign sku = product.variants.first.sku | append: ' ' -%}
-                    {%- assign filtered_title = product_title | remove_first: sku -%}
-                    <a href="{{ product_url }}" title="{{ filtered_title }}">{{ filtered_title }}</a>
-                  {%- endif -%}
+                  {%- assign sku = product.variants.first.sku | append: ' ' -%}
+                  {%- assign filtered_title = product_title | remove_first: sku -%}
+                  <a href="{{ product_url }}" title="{{ filtered_title }}">{{ filtered_title }}</a>
                 </h1>
                 <script>
                   // Pass variant data from Liquid to JavaScript
