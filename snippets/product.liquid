@@ -385,13 +385,11 @@
                 {%- endcase -%}
 
                 <h1 class="product__title">
+                  {%- assign title_parts = product_title | split: ' - ' -%}
+                  {%- assign filtered_title = title_parts | slice: 1, title_parts.size | join: ' - ' -%}
                   {%- if template.name == 'product' and section_type != 'featured' -%}
-                    {%- assign sku = product.variants.first.sku | append: ' ' -%}
-                    {%- assign filtered_title = product_title | remove_first: sku -%}
                     {{- filtered_title -}}
                   {%- else -%}
-                    {%- assign sku = product.variants.first.sku | append: ' ' -%}
-                    {%- assign filtered_title = product_title | remove_first: sku -%}
                     <a href="{{ product_url }}" title="{{ filtered_title }}">{{ filtered_title }}</a>
                   {%- endif -%}
                 </h1>
