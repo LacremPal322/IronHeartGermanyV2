@@ -670,13 +670,11 @@ th, td {
 }
 @media only screen and (max-width: 767px) {
   th, td {
-    padding: 15px;
     padding: var(--TABLE-PADDING-TABLET); /* P. Ryan - 25.01.25 - Configure tables */
   }
 }
 @media only screen and (max-width: 479px) {
   th, td {
-    padding: 10px;
     padding: var(--TABLE-PADDING-MOBILE); /* P. Ryan - 25.01.25 - Configure tables */
   }
 }
