@@ -664,18 +664,18 @@ table {
 
 th, td {
   text-align: left;
-  padding: var(--TABLE-PADDING-DESKTOP)px; /* P. Ryan - 25.01.25 - Configure tables */
+  padding: var(--TABLE-PADDING-DESKTOP); /* P. Ryan - 25.01.25 - Configure tables */
   font-weight: inherit;
   border: var(--BORDER-WIDTH) solid var(--border);
 }
 @media only screen and (max-width: 767px) {
   th, td {
-    padding: var(--TABLE-PADDING-TABLET)px; /* P. Ryan - 25.01.25 - Configure tables */
+    padding: var(--TABLE-PADDING-TABLET); /* P. Ryan - 25.01.25 - Configure tables */
   }
 }
 @media only screen and (max-width: 479px) {
   th, td {
-    padding: var(--TABLET-PADDING-MOBILE)px; /* P. Ryan - 25.01.25 - Configure tables */
+    padding: var(--TABLET-PADDING-MOBILE); /* P. Ryan - 25.01.25 - Configure tables */
   }
 }
 
