@@ -296,6 +296,45 @@
     ]
   },
   {
+    "name": "Tables",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Cell Padding"
+      },
+      {
+        "type": "range",
+        "id": "table_padding_desktop",
+        "label": "Padding on Desktop",
+        "default": 20,
+        "min": 10,
+        "max": 30,
+        "step": 1,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "table_padding_tablet",
+        "label": "Padding on Tablet",
+        "default": 15,
+        "min": 5,
+        "max": 25,
+        "step": 1,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "table_padding_mobile",
+        "label": "Padding on Mobile",
+        "default": 10,
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "unit": "px"
+      },
+    ]
+  },
+  {
     "name": "Buttons",
     "settings": [
       {

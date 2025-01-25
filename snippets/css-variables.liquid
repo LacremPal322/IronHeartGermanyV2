@@ -774,5 +774,11 @@
   {% else %}
     --product-filter-bg: 1.0;
   {%- endif -%}
+
+  {%- comment -%} Configure tables {%- endcomment -%}
+  {%- comment -%} P. Ryan - 25.01.25 {%- endcomment -%}
+  --TABLE-PADDING-DESKTOP: {{ settings.table_padding_desktop }};
+  --TABLE-PADDING-TABLET: {{ settings.table_padding_tablet }};
+  --TABLE-PADDING-MOBILE: {{ settings.table_padding_mobile }};
 }
 {%- endstyle -%}
