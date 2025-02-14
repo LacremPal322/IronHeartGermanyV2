@@ -12,6 +12,39 @@
     "section_slideshow_dTDLLQ": {
       "type": "section-slideshow",
       "blocks": {
+        "image_Mc6ncH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WE-BRITTAN7710705_005_25_02.jpg",
+            "image_mobile": "shopify://shop_images/WE-BRITTAN7710705_008_25_02.jpg",
+            "overlay_opacity": 0,
+            "text_width": "normal",
+            "text_position": "bottom-left",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "WESCO<span class=\"red_dot\"></span>",
+            "heading_font_size": 40,
+            "text_font_size": 22,
+            "heading_font_size_mobile": 24,
+            "text_font_size_mobile": 14,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "Custom Boss - Roughout British Tan",
+            "button_1_text": "Shop",
+            "button_1_link": "https://ironheartgermany.com/collections/new/products/wesco-we-brittan7710705-wesco-custom-boss-roughout-british-tan",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--outline",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
         "image_e8ntQh": {
           "type": "image",
           "settings": {
@@ -78,45 +111,12 @@
             "video_text": "",
             "video_link": ""
           }
-        },
-        "image_Mc6ncH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WE-BRITTAN7710705_005_25_02.jpg",
-            "image_mobile": "shopify://shop_images/WE-BRITTAN7710705_008_25_02.jpg",
-            "overlay_opacity": 0,
-            "text_width": "normal",
-            "text_position": "bottom-left",
-            "text_color": "text-light",
-            "subheading": "",
-            "title": "WESCO<span class=\"red_dot\"></span>",
-            "heading_font_size": 40,
-            "text_font_size": 22,
-            "heading_font_size_mobile": 24,
-            "text_font_size_mobile": 14,
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000",
-            "text": "Custom Boss - Roughout British Tan",
-            "button_1_text": "Shop",
-            "button_1_link": "https://ironheartgermany.com/collections/new/products/wesco-we-brittan7710705-wesco-custom-boss-roughout-british-tan",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--outline",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
         }
       },
       "block_order": [
+        "image_Mc6ncH",
         "image_e8ntQh",
-        "image_XHfcna",
-        "image_Mc6ncH"
+        "image_XHfcna"
       ],
       "custom_css": [
         "h1 {text-transform: none; font-size: 52px; line-height: 56px;}",
