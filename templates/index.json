@@ -223,7 +223,7 @@
         ".featured-collection {background-color: #fafafa !important;}"
       ],
       "settings": {
-        "collection": "bestsellers",
+        "collection": "bestsellers-1",
         "products_layout": "grid",
         "number_of_products": 4,
         "products_per_row_on_desktop": 4,
