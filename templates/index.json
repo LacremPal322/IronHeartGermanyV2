@@ -254,11 +254,13 @@
         "product_N8bjjT": {
           "type": "product",
           "settings": {
-            "product": "iron-heart-ihsh-33-t-12oz-selvedge-denim-western-shirt-with-tonal-stitching-indigo",
+            "product": "iron-heart-ihsh-96-ind-waffle-work-shirt-indigo",
             "title": "",
-            "product_description": "<p>Classic western shirt made from one-washed 12oz indigo Japanese selvedge denim, with black Iron Heart Permex snaps, tonal dark blue stitching, and chain stitch runoff. A must-have wardrobe staple that’ll age beautifully over time.</p>",
+            "product_description": "<p>Classic work shirt from Iron Heart made from a super soft indigo waffle fabric. Being indigo dyed, this shirt will fade over time and age beautifully with wear.</p>",
             "button_text": "View Product",
-            "show_second_image": false,
+            "show_second_image": true,
+            "image_1": "shopify://shop_images/IHSH-96-IND_008_25_02.jpg",
+            "image_2": "shopify://shop_images/IHSH-96-IND_009_25_02.jpg",
             "show_circle": true,
             "hide_on_mobile": false,
             "circle_text_color": "#000000",
