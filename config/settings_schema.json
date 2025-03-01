@@ -1465,8 +1465,52 @@
         "type": "text",
         "id": "future_release_tag",
         "label": "Future Release Tag",
-        "default": "SS24",
+        "default": "Future",
         "info": "Used to identify which products have the Future Release badge"
+      },
+      {
+        "type": "text",
+        "id": "future_release_text",
+        "label": "Future Release Text",
+        "default": "Coming Soon",
+        "info": "Text displayed in the Future Release badge"
+      },
+
+      {
+        "type": "header",
+        "content": "Seasonal Release badge"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_seasonal_release_badge",
+        "label": "Show Seasonal Release badge",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "seasonal_release_bg_color",
+        "label": "Background",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "seasonal_release_text_color",
+        "label": "Text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "text",
+        "id": "seasonal_release_tag",
+        "label": "Seasonal Release Tag",
+        "default": "SS25",
+        "info": "Used to identify which products have the Seasonal Release badge"
+      },
+      {
+        "type": "text",
+        "id": "seasonal_release_text",
+        "label": "Seasonal Release Text",
+        "default": "SS25",
+        "info": "Text displayed in the Future Release badge"
       },
       {
         "type": "header",

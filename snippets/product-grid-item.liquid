@@ -85,8 +85,10 @@
   assign new_badge = false
   assign back_in_badge = false
   assign is_future_release = false
+  assign is_seasonal_release = false
   assign is_released = false
   assign downcase_future_release_tag = settings.future_release_tag | downcase
+  assign downcase_seasonal_release_tag = settings.seasonal_release_tag | downcase
   assign collection_badge = false
 
   for tag in product.tags
@@ -100,6 +102,9 @@
     if downcase_tag == downcase_future_release_tag
       assign is_future_release = true
     endif
+    if downcase_tag == downcase_seasonal_release_tag
+      assign is_seasonal_release = true
+    endif
     if downcase_tag == 'released'
       assign is_released = true
     endif
@@ -108,6 +113,11 @@
   assign future_release_badge = is_future_release
   if is_released == true
     assign future_release_badge = false
+  endif
+
+  assign seasonal_release_badge = is_seasonal_release
+  if is_released == true
+    assign seasonal_release_badge = false
   endif
 
   if settings.collection_badge_collection != blank and settings.collection_badge_collection != empty
@@ -532,13 +542,15 @@
         assign show_new_badge = settings.show_new_badge
         assign show_back_in_badge = settings.show_back_in_badge
         assign show_future_release_badge = settings.show_future_release_badge
+        assign show_seasonal_release_badge = settings.show_seasonal_release_badge
         assign show_collection_badge = settings.show_collection_badge
         assign show_saving_badge = settings.show_saving_badge
         assign sold_out_text = 'products.product.sold_out' | t
         assign sale_text = 'products.product.sale' | t
         assign new_text = 'products.product.new' | t
         assign back_in_text = 'products.product.back_in' | t
-        assign future_release_text = 'products.product.future_release' | t
+        assign future_release_text = settings.future_release_text
+        assign seasonal_release_text = settings.seasonal_release_text
         assign collection_badge_text = settings.collection_badge_text
 
         if settings.show_saving_badge
@@ -591,19 +603,19 @@
     </div>
   {%- endif -%}
 
-  {%- if sold_out and show_sold_badge and future_release_badge == false -%}
+  {%- if sold_out and show_sold_badge and future_release_badge == false and seasonal_release_badge == false -%}
     <div class="product__badge__item product__badge__item--sold">
       <span>{{ sold_out_text }}</span>
     </div>
   {%- endif -%}
 
-  {%- if new_badge and show_new_badge and sold_out == false and back_in_badge == false and future_release_badge == false -%}
+  {%- if new_badge and show_new_badge and sold_out == false and back_in_badge == false and future_release_badge == false and seasonal_release_badge == false -%}
     <div class="product__badge__item product__badge__item--new">
       <span>{{ new_text }}</span>
     </div>
   {%- endif -%}
 
-  {%- if back_in_badge and show_back_in_badge and sold_out == false and future_release_badge == false -%}
+  {%- if back_in_badge and show_back_in_badge and sold_out == false and future_release_badge == false and seasonal_release_badge == false -%}
     <div class="product__badge__item product__badge__item--back-in">
       <span>{{ back_in_text }}</span>
     </div>
@@ -615,7 +627,13 @@
     </div>
   {%- endif -%}
 
-  {%- if collection_badge -%}
+  {%- if seasonal_release_badge and show_seasonal_release_badge -%}
+    <div class="product__badge__item product__badge__item--seasonal-release">
+      <span>{{ seasonal_release_text }} </span>
+    </div>
+  {%- endif -%}
+
+  {%- if collection_badge and show_collection_badge -%}
     <div class="product__badge__item product__badge__item--collection-badge">
       <span>{{ collection_badge_text }} </span>
     </div>

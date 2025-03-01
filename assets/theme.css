@@ -56,6 +56,8 @@
   --back-in-text: var(--COLOR-BACK-IN-TEXT);
   --future-release-bg: var(--COLOR-FUTURE-RELEASE-BG);
   --future-release-text: var(--COLOR-FUTURE-RELEASE-TEXT);
+  --seasonal-release-bg: var(--COLOR-SEASONAL-RELEASE-BG);
+  --seasonal-release-text: var(--COLOR-SEASONAL-RELEASE-TEXT);
   --collection-badge-bg: var(--COLOR-COLLECTION-BADGE-BG);
   --collection-badge-text: var(--COLOR-COLLECTION-BADGE-TEXT);
   --saving-bg: var(--COLOR-SAVING-BG);
@@ -14236,6 +14238,11 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   color: var(--future-release-text);
 }
 
+.product__badge__item--seasonal-release {
+  background-color: var(--seasonal-release-bg);
+  color: var(--seasonal-release-text);
+}
+
 .product__badge__item--collection-badge {
   background-color: var(--collection-badge-bg);
   color: var(--collection-badge-text);
@@ -28161,7 +28168,6 @@ img.location_bottom_icon {
   text-align: center;
 }  
 
-}
 .column-item__inner .column-item__heading {
     margin-bottom: 15px;
     text-transform: uppercase;
