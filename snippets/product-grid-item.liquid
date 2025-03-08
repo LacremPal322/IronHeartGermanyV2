@@ -770,7 +770,8 @@
                   data-value="{{ value | escape }}"
                   class="swatch-element {{ value | handle }} {% if variant.available %}available{% else %}soldout{% endif %}"
                 >
-                  <label for="swatch-{{ option_index }}-{{ value | handle }}" title="{{ value | escape }}">
+                   {%  comment %} P. Ryan - 09.03.25 - add title so that quantity is shown in tool tip {% endcomment %}
+                   <label for="swatch-{{ option_index }}-{{ value | handle }}" {% if settings.sizes_on_hover_show_in_stock_qty %} title="{{ variant.inventory_quantity | escape }} in stock" {% endif %}>
                     {{- value -}}
                     <img class="crossed-out" src="{{ 'soldout.svg' | asset_url }}" alt="Crossed Out">
                   </label>

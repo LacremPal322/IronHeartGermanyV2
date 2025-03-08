@@ -442,7 +442,7 @@
                     {%- assign release_type = "SEASONAL OR LIMITED RUN" -%}
                   {% endif %}
                   <h2 id="seasonal_release">{{ release_type  }}</h2>
-                {%- endif -%} 
+                {%- endif -%}
 
               </div>
               {%- assign currency_code_enable = settings.currency_code_enable -%}
@@ -1110,7 +1110,8 @@
                         name="options[{{ option.name | escape_once }}]"
                         value="{{ value | escape_once }}" id="{{ input_id }}"
                         {% if value == current_value %}checked{% endif %}>
-                      <label for="{{ input_id }}" class="radio__label">
+                      {%  comment %} P. Ryan - 09.03.25 - add title so that quantity is shown in tool tip {% endcomment %}
+                      <label for="{{ input_id }}" class="radio__label" {% if settings.product_form_show_in_stock_qty %} title="{{value.variant.inventory_quantity | escape}} in stock" {% endif %}>
                         <span>{{ value | escape_once }}</span>
                       </label>
                     </span>

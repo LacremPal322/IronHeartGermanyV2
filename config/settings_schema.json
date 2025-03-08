@@ -600,6 +600,38 @@
             "label": "Accent"
           }
         ]
+      },
+      {
+        "type": "header",
+        "content": "Sizes on hover"
+      },
+      {
+        "type": "paragraph",
+        "content": "Configure the sizes shown when hovering over a product in a product grid"
+      },
+      {
+        "type": "range",
+        "id": "sizes_on_hover_box_size",
+        "label": "Size of box",
+        "min": 20,
+        "max": 50,
+        "step": 1,
+        "default": 25,
+        "unit": "px"
+      },
+      {
+        "type": "checkbox",
+        "id": "sizes_on_hover_color_transition",
+        "label": "Color transition when in size box",
+        "default": false,
+        "info": "Transition from one color to another when mouse enters box containing sizes"
+      },
+      {
+        "type": "checkbox",
+        "id": "sizes_on_hover_show_in_stock_qty",
+        "label": "Show in-stock quantity on hover",
+        "default": true,
+        "info": "When hovering over the selected variant, the in-stock quantity is shown as a tool tip"
       }
     ]
   },
@@ -776,6 +808,17 @@
         "label": "Show recipient information form for gift card products",
         "default": false,
         "info": "Gift card products can optionally be sent direct to a recipient along with a personal message."
+      },
+      {
+        "type": "header",
+        "content": "In-Stock quantity on hover"
+      },
+      {
+        "type": "checkbox",
+        "id": "product_form_show_in_stock_qty",
+        "label": "Show in-stock quantity on hover",
+        "default": true,
+        "info": "When hovering over the selected variant, the in-stock quantity is shown as a tool tip"
       }
     ]
   },
@@ -1631,32 +1674,6 @@
             "value": "rectangle"
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Sizes on Hover",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Configure the sizes shown when hovering over a product in a product grid"
-      },
-      {
-        "type": "range",
-        "id": "sizes_on_hover_box_size",
-        "label": "Size of box",
-        "min": 20,
-        "max": 50,
-        "step": 1,
-        "default": 25,
-        "unit": "px"
-      },
-      {
-        "type": "checkbox",
-        "id": "sizes_on_hover_color_transition",
-        "label": "Color transition when in size box",
-        "default": false,
-        "info": "Transition from one color to another when mouse enters box containing sizes"
       }
     ]
   },
