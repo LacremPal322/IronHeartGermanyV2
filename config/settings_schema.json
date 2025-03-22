@@ -793,10 +793,31 @@
       },
       {
         "type": "checkbox",
-        "id": "show_seasonal_releases",
-        "label": "Show seasonal release info",
+        "id": "seasonal_releases_text_show",
+        "label": "Show seasonal release text",
         "default": false,
         "info": "Show text under the SKU indicating if a product is a Seasonal Release or in Continuous Prouction."
+      },
+      {
+        "type": "text",
+        "id": "seasonal_releases_text_tag",
+        "label": "Seasonal releases tag",
+        "default": "Seasonal",
+        "info": "Tag used to identify which products are seasonal releases"
+      },
+      {
+        "type": "text",
+        "id": "seasonal_releases_text_seasonal_text",
+        "label": "Text displayed for seasonal releases",
+        "default": "SEASONAL OR LIMITED RUN",
+        "info": "Text that is displayed when a product is a seasonal release"
+      },
+      {
+        "type": "text",
+        "id": "seasonal_releases_text_continuous_text",
+        "label": "Text displayed for continuous production",
+        "default": "CONTINUOUS PRODUCTION",
+        "info": "Text that is displayed when a product is in continuous production"
       },
       {
         "type": "header",

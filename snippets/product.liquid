@@ -435,13 +435,14 @@
 
                 <h2 id="sku_subtitle"></h2>
                 {% comment %} P. Ryan - 12.01.25 - Seasonal Release {% endcomment %}
-                {%- if settings.show_seasonal_releases -%}
+                {%- if settings.seasonal_releases_text_show -%}
                   {%- assign tags_lower = product.tags | join: ',' | downcase | split: ',' -%}
-                  {%- assign release_type = "CONTINUOUS PRODUCTION"-%}
-                  {%- if tags_lower contains "seasonal" -%}
-                    {%- assign release_type = "SEASONAL OR LIMITED RUN" -%}
+                  {%- assign release_text = settings.seasonal_releases_text_continuous_text -%}
+                  {%- assign seasonal_releases_text_tag = settings.seasonal_releases_text_tag | downcase-%}
+                  {%- if tags_lower contains seasonal_releases_text_tag -%}
+                    {%- assign release_text = settings.seasonal_releases_text_seasonal_text -%}
                   {% endif %}
-                  <h2 id="seasonal_release">{{ release_type  }}</h2>
+                  <h2 id="seasonal_release">{{ release_text  }}</h2>
                 {%- endif -%}
 
               </div>
