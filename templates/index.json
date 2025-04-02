@@ -28,8 +28,8 @@
             "heading_font_size_mobile": 24,
             "text_font_size_mobile": 17,
             "heading_highlight_type": "circle",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
             "text": "12oz Kurashikizome® Twill Work Jacket",
             "button_1_text": "SHOP",
             "button_1_link": "https://ironheartgermany.com/collections/new/products/iron-heart-ihj-144-bei-12oz-kurashikizome-twill-work-jacket-beige",
@@ -290,9 +290,9 @@
         "product_N8bjjT": {
           "type": "product",
           "settings": {
-            "product": "iron-heart-ihsh-96-ind-waffle-work-shirt-indigo",
+            "product": "iron-heart-ihsh-338-blk-12oz-selvedge-denim-work-shirt-with-snaps-black-black",
             "title": "",
-            "product_description": "<p>Classic work shirt from Iron Heart made from a super soft indigo waffle fabric. Being indigo dyed, this shirt will fade over time and age beautifully with wear.</p>",
+            "product_description": "<p>Iron Heart's classic work shirt is cut from a 12oz Black Selvedge denim, the same fabric used in the popular Johnny Cash western and work shirts. The denim fades very slowly over time, developing a strong character that ensures this classic shirt will look fantastic with age and wear. </p>",
             "button_text": "View Product",
             "show_second_image": true,
             "image_1": "shopify://shop_images/IHSH-96-IND_008_25_02.jpg",
