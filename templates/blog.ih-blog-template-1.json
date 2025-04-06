@@ -12,13 +12,14 @@
     "main": {
       "type": "blog",
       "settings": {
+        "default_image": "shopify://shop_images/IH25398.jpg",
         "default_color": "accent",
         "blog_style": "photo",
         "post_columns": 3,
         "image_aspect_ratio": 0.8,
         "show_rss_icon": false,
-        "show_date": true,
-        "show_author": true,
+        "show_date": false,
+        "show_author": false,
         "show_tags": true,
         "show_comments_count": false,
         "tag_alignment": "center",
