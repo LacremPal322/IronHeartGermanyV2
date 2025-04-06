@@ -23,7 +23,7 @@
         "show_tags": true,
         "show_comments_count": false,
         "tag_alignment": "center",
-        "bg_color_secondary": false,
+        "bg_color_secondary": true,
         "padding_top": 60,
         "padding_bottom": 60
       }
