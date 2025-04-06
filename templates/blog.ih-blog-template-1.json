@@ -14,7 +14,7 @@
       "settings": {
         "default_image": "shopify://shop_images/IH25398.jpg",
         "default_color": "accent",
-        "blog_style": "photo",
+        "blog_style": "standard",
         "post_columns": 3,
         "image_aspect_ratio": 0.8,
         "show_rss_icon": false,
