@@ -695,7 +695,7 @@
           "type": "heading",
           "settings": {
             "text": "<p>THE EVOLUTION OF IRON HEART</p>",
-            "size": 120,
+            "size": 115,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000"
