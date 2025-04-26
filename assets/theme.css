@@ -682,7 +682,7 @@ th, td {
 }
 
 /* Patrick Ryan - 31.08.2024 - format tables that show sizes to be striped */
-h5 ~ tbody tr:nth-child(odd) {
+span.easytabs-header-text tbody tr:nth-child(odd) {
   background-color: #f1f1f1;
 }
 
