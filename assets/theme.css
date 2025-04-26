@@ -686,7 +686,7 @@ div.size-guide-drawer__table-scroll tbody tr:nth-child(odd) {
   background-color: #f1f1f1;
 }
 
-/* Patrick Ryan - 31.08.2024 - format tables copied from the new IH UK shopify site that show sizes to be striped */
+/* Patrick Ryan - 26.04.2025 - format tables copied from the new IH UK shopify site that show sizes to be striped */
 .table-striped tbody tr:nth-child(odd) {
   background-color: #f1f1f1;
 }
