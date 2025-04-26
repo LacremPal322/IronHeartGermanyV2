@@ -497,8 +497,8 @@ sub {
 }
 
 /* -- code to use Custom font-family in theme -- */
-/*@font-face {   
-  font-family: 'IHCUSTOM';  
+/*@font-face {
+  font-family: 'IHCUSTOM';
   src: url('https://cdn.shopify.com/s/files/1/0429/4518/3910/files/HelveticaNeueLTStd-BdCn.woff2?v=1710927611') format("woff2");
   text-transform: uppercase;
   letter-spacing: 0px;
@@ -682,6 +682,11 @@ th, td {
 }
 
 /* Patrick Ryan - 31.08.2024 - format tables that show sizes to be striped */
+div.size-guide-drawer__table-scroll tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+/* Patrick Ryan - 31.08.2024 - format tables copied from the new IH UK shopify site that show sizes to be striped */
 .table-striped tbody tr:nth-child(odd) {
   background-color: #f1f1f1;
 }
@@ -13577,7 +13582,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
       margin: 0px 10px 10px 0;
       -webkit-transform: translateZ(0); /* webkit flicker fix */
       -webkit-font-smoothing:antialiased; /* webkit text rendering fix */
-      
+
       margin: 5px 0px 5px 0px;
       justify-content: center;
       display: flex;
@@ -13617,7 +13622,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
           left: 0;
           top: 0;
         }
-        
+
         &.soldout {
           .crossed-out {
             display: block;
@@ -28163,10 +28168,10 @@ img.location_bottom_icon {
 }
 .locations__info {
     padding-right: 0px;
-}  
+}
 .top_image_list {
   text-align: center;
-}  
+}
 
 .column-item__inner .column-item__heading {
     margin-bottom: 15px;
@@ -28194,8 +28199,8 @@ img.location_bottom_icon {
     line-height: 30px;
   }
 .red_dot::after {
-    width: 5px; 
-    height: 5px; 
+    width: 5px;
+    height: 5px;
   }
 }
 .buttons-list .list-collections__item__title{
@@ -28205,10 +28210,10 @@ img.location_bottom_icon {
     content: "";
     margin-left: 3px;
     display: inline-block;
-    width: 5px; 
-    height: 5px; 
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
-    background-color: red; 
+    background-color: red;
 }
 .locations__info{
   text-align: center;
