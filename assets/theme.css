@@ -696,6 +696,11 @@ div.easytabs-content-holder tbody tr:nth-child(odd) {
   font-size: 0.95rem;
 }
 
+/* Patrick Ryan - 26.04.2025 - make font in tables smaller so that there are no line breaks for tables copied from new IH UK shopify site */
+div.easytabs-content-holder table {
+  background-color: #f1f1f1;
+}
+
 /*================ Images and iframes ================*/
 img {
   border: 0 none;
