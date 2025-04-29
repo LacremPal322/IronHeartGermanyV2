@@ -59,6 +59,7 @@
     "variants_style": "boxes",
     "show_newsletter": false,
     "enable_half_width_btn": true,
+    "seasonal_releases_text_show": true,
     "product_form_show_in_stock_qty": false,
     "quick_buy": "none",
     "quick_buy_image_layout": "large",
